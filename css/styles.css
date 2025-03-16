@@ -1,0 +1,113 @@
+/*#region reset */
+body {
+    font-family: "", sans-serif;
+    color: #434455;
+    background-color: #ffffff;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+button {
+    cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+/* #endregion */
+
+/*#region common*/
+.container {
+    max-width: 320px;
+    padding: 0 32px;
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+    }
+}
+
+@media screen and (min-width: 1158px) {
+    .container {
+        max-width: 1158px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .container {
+        max-width: 1440px;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .container {
+        max-width: 1920px;
+    }
+}
+
+
+
+
+
+.container {}
+
+.logo {
+   fill: black;
+}
+
+.header-list {}
+
+.header-item {}
+
+.current {}
+
+.header-btn {}
+
+.login {}
+
+.sign-up {}
+
+.hero {
+    background-image: url(/images/background/mobile\ 320@1x-min.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
